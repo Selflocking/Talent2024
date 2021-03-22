@@ -141,14 +141,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin-oa
    - https://github.com/casbin/casbin
 
-8. 项目技术要求：
-   - 熟悉C#、.net core
-   - 熟悉OAuth 2.0
-   - 熟悉java和spring
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/Casbin.NET
-   - https://github.com/casbin-net/EFCore-Adapter
-
 ### 5. Casbin-CPP 生态完善（C/C++）
 
 1. 项目标题：Casbin-CPP 生态完善（C/C++）

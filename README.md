@@ -1,21 +1,21 @@
-## Casbin明日之星预选生计划-Talent for Casbin 2021
+## Casbin明日之星预选生计划-Talent for Casbin 2022
 
-### “Casbin明日之星预选生计划-Talent for Casbin 2021”是什么？
+### “Casbin明日之星预选生计划-Talent for Casbin 2022”是什么？
 
-“Casbin明日之星预选生计划-Talent for Casbin 2021”（以下简称 Talent 2021）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
+“Casbin明日之星预选生计划-Talent for Casbin 2022”（以下简称 Talent 2022）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
 
 2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://isrc.iscas.ac.cn/summer2020) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
 
-为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为明年Google Summer of Code 2021和暑期2021（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2021”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
+为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为明年Google Summer of Code 2022和暑期2022（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2022”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
-根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2021”活动奖金和加盖Casbin社区公章的参与（实习）证明。
+根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2022”活动奖金和加盖Casbin社区公章的参与（实习）证明。
 
-**“Talent 2021”项目在2021年首次举办，与Google Summer of Code等活动类似，不同点是“Talent 2021”在非暑期时间举行，与GSoC等活动是互补的关系。**
+**“Talent 2022”项目在2022年首次举办，与Google Summer of Code等活动类似，不同点是“Talent 2022”在非GSoC申请时间举行，与GSoC等活动是互补的关系。**
 
-1. Casbin明日之星预选生计划-Talent for Casbin 2021 官网：https://github.com/casbin/Talent2021
+1. Casbin明日之星预选生计划-Talent for Casbin 2022 官网：https://github.com/casbin/Talent2022
 2. Google Summer of Code官网：https://summerofcode.withgoogle.com/
 3. Google Summer of Code中文介绍：https://github.com/gsoc-cn/gsoc-cn 或 https://zhuanlan.zhihu.com/p/27823910 或 https://zhuanlan.zhihu.com/p/27330699
-4. 开源软件供应链点亮计划-暑期2020官网：https://isrc.iscas.ac.cn/summer2020 或 http://www.iscas.ac.cn/xshd2016/xshy2016/202004/t20200426_5563484.html
+4. 开源软件供应链点亮计划-暑期活动官网：https://summer.iscas.ac.cn/
 
 ### 活动的主要参与方有哪些？
 
@@ -59,7 +59,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 ### 1. Casbin文档中文翻译 + 官网优化
 
 1. 项目标题：Casbin文档中文翻译 + 官网优化
-2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且该项目也会承担一部分Casbin社区推广（如Casbin官方微信公众号）文章的撰写编辑、公众号管理等临时任务。该项目首先进入Talent 2021，若社区今年有[Google Season of Docs 2021](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2021项目](https://github.com/casbin/Summer2020 )。
+2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且该项目也会承担一部分Casbin社区推广（如Casbin官方微信公众号）文章的撰写编辑、公众号管理等临时任务。该项目首先进入Talent 2022，若社区今年有[Google Season of Docs 2022](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2022项目](https://github.com/casbin/Summer2021 )。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
@@ -263,7 +263,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/node-casbin
    - https://github.com/node-casbin
 
-所有可选项目详见：https://github.com/casbin/talent2021#可选项目列表
+所有可选项目详见：https://github.com/casbin/talent2022#可选项目列表
 
 ## 候选人要求
 
@@ -292,12 +292,12 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2021年3月1日 - 2021年4月30日）
+### 1. 联系社区（2021年6月25日 - 2021年8月31日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
-2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2021-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
+2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2022-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
 3. 选择技术写作题目“Casbin文档中文翻译 + 官网优化”的同学，还需要加入《Casbin文档题目申请》（QQ文档群）：[714309545](https://qm.qq.com/cgi-bin/qm/qr?k=T-hOJN1IzKN638y2N9rJJDdIT1fqpfua&jump_from=webapi)，并仔细阅读群公告，联系导师沟通项目细节
 
-### 2. 官网投递（2021年3月1日 - 2021年4月30日）
+### 2. 官网投递（2021年6月25日 - 2021年8月31日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org

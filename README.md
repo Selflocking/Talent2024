@@ -43,9 +43,16 @@ GSoC 2021 | 9 | 待公布
 
 ## Casbin开源项目介绍
 
-Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java, Node.js, Javascript (React), Python, PHP, .NET, C++, Rust等多种语言。Casbin由北京大学罗杨博士创立于2017年，核心维护团队有数十人。Casbin在业界具有广泛影响力。目前已经被Intel、VMware、Orange、RedHat、T-Mobile等公司开源使用，被腾讯云、Cisco、Verizon等公司闭源使用。具体详见Casbin主页。Casbin Go主项目目前GitHub 7700+ stars，加上所有语言的实现、插件等可达到10000+ stars。Casbin曾经在国际上多次宣讲：
+Casbin是一个强大的、高效的开源访问控制框架，支持Go, Java, Node.js, Javascript (React), Python, PHP, .NET, C++, Rust等十几种语言。Casbin开源项目由北京大学罗杨博士创立于2017年，核心维护团队有二十多人。Casbin在业界具有广泛影响力。目前已经被Intel、VMware、Orange、RedHat、T-Mobile等公司开源使用，被腾讯云、Cisco、Verizon等公司闭源使用。具体详见Casbin主页。Casbin Go主项目目前GitHub 10000+ stars，加上所有语言的实现、插件等可达到15000+ stars。
 
-1. 新加坡政府技术部门Open Government Products：https://www.youtube.com/watch?v=OTT84oplR9o
+Casbin技术已经被列入多个国内外权威机构、政府部门的白皮书：
+
+1. 国家广电总局《广播电视和网络视听区块链系统》白皮书（第85页）：http://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=e2ed95c223c34e38aa163b01030655aa.pdf
+2. 美国国家标准与技术研究院（NIST）《Attribute-based Access Control for Microservices-based Applications Using a Service Mesh》白皮书（第10页）：https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204B.pdf
+
+Casbin也曾经在国际上进行多次线下宣讲：
+
+1. 新加坡政府技术部Open Government Products：https://www.youtube.com/watch?v=OTT84oplR9o
 2. 俄罗斯最大在线旅游平台tutu.ru：https://www.youtube.com/watch?v=Z5dUxH4PqYM
 
 具体请了解Casbin官网：https://casbin.org/
@@ -55,6 +62,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
 - [Casbin核心引擎（Golang）](#casbin核心引擎golang)
+- [Casbin开源社区运营](#casbin开源社区运营)
 - [Casbin文档中文翻译 + 官网优化](#casbin文档中文翻译--官网优化)
 - [Casdoor身份认证系统（前端React + Javascript，后端Golang）](#casdoor身份认证系统前端react--javascript后端golang)
 - [Casbin官方核心论坛（前端React + Javascript，后端Golang）](#casbin官方核心论坛前端react--javascript后端golang)
@@ -84,18 +92,38 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin
    - https://github.com/casbin
 
-### Casbin文档中文翻译 + 官网优化
+### Casbin开源社区运营
 
-1. 项目标题：Casbin文档中文翻译 + 官网优化
-2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且该项目也会承担一部分Casbin社区推广（如Casbin官方微信公众号）文章的撰写编辑、公众号管理等临时任务。该项目首先进入Talent 2022，若社区今年有[Google Season of Docs 2022](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2022项目](https://github.com/casbin/Summer2021 )。
+1. 项目标题：Casbin开源社区运营
+2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。该项目首先进入Talent 2022，若社区今年有[Google Season of Docs 2022](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2022项目](https://github.com/casbin/Summer2021 )。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
-   - 在CrowdIn翻译平台将Casbin官网英文内容翻译为中文，进度翻译至100%（目前为15%）
-   - （可选）改进官网功能、优化内容排版，增加新的文档内容
-   - （有时）撰写、编辑Casbin社区推广（如Casbin官方微信公众号）文章
+   - 负责日常招募新的开源开发者参与社区的各项活动，如Google Summer of Code，暑期编程之夏、明日之星等等，在活动期间对参与者进行管理
+   - 参与对接本社区与其他厂商、开源社区的商务合作，推进合作进度
+   - 撰写社区的技术、推广、合作等文案，维护、贡献社区官方博客（https://casbin.org/blog/ ）、微信公众号等社交媒体账号
+8. 项目技术要求：
+   - 热爱开源，对技术有一定了解，同时具有技术与推广、运营双重背景的优先
+   - 沟通能力良好，理解力强，有出色的组织、协调能力
+   - 有能力撰写社区的技术、推广、合作等文案
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-website
+   - https://casbin.org/blog/
+
+### Casbin文档中文翻译 + 官网优化
+
+1. 项目标题：Casbin文档中文翻译 + 官网优化
+2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。该项目首先进入Talent 2022，若社区今年有[Google Season of Docs 2022](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2022项目](https://github.com/casbin/Summer2021 )。
+3. 项目难度：高
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 在CrowdIn翻译平台将Casbin官网英文内容翻译为中文，进度翻译至100%
+   - 针对文档内容的不足，撰写、添加新的文档内容（英文），优化内容排版，优化文档目录结构，提升文档可读性、可理解性
+   - 改进官网功能（如在线演示、评论功能等）、美化官网UI效果
    - 解决Casbin-website主仓库&相关仓库中的issues：https://github.com/casbin/casbin-website/issues
 8. 项目技术要求：
    - 热爱并有能力撰写技术博客、文章
@@ -284,7 +312,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 ### 职位要求：
 
-- 本科、硕士或博士（已毕业、工作的无法参加GsoC，只能获取奖金及参与证明。）；
+- 本科、硕士或博士在读（已毕业、工作的无法参加）；
 - 对开源软件、开源社区感兴趣；
 - 熟悉一种或多种编程语言，有较强的工程能力，代码格式清晰规范，善于团队协作；
 - 有一定英文读写能力，能够熟练运用英语在GitHub进行开发、协作；

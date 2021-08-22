@@ -54,9 +54,35 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
+- [Casbin核心引擎（Golang）](#casbin核心引擎golang)
 - [Casbin文档中文翻译 + 官网优化](#casbin文档中文翻译--官网优化)
+- [Casdoor身份认证系统（前端React + Javascript，后端Golang）](#casdoor身份认证系统前端react--javascript后端golang)
+- [Casbin官方核心论坛（前端React + Javascript，后端Golang）](#casbin官方核心论坛前端react--javascript后端golang)
 - [Casbin官方会议投稿系统（前端React + Javascript，后端Golang）](#casbin官方会议投稿系统前端react--javascript后端golang)
+- [Casbin官方OA系统（前端React + Javascript，后端Golang）](#casbin官方oa系统前端react--javascript后端golang)
+- [jCasbin 生态完善（Java）](#jcasbin-生态完善java)
 - [PHP-Casbin 生态完善（PHP）](#php-casbin-生态完善php)
+- [SwiftCasbin 开发（Swift）](#swiftcasbin-开发swift)
+- [Casbin Web前端UI设计开发（React + Javascript）](#casbin-web前端ui设计开发react--javascript)
+
+### Casbin核心引擎（Golang）
+
+1. 项目标题：Casbin核心引擎（Golang）
+2. 项目描述：Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。
+3. 项目难度：高
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
+   - 优化Casbin在大规模规则集上（百万以上）的策略评估性能
+   - 解决Casbin Golang主仓库&相关仓库中的issues：https://github.com/casbin/casbin/issues
+8. 项目技术要求：
+   - 熟悉Golang语言
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin
+   - https://github.com/casbin
 
 ### Casbin文档中文翻译 + 官网优化
 
@@ -80,16 +106,79 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin-website
    - https://github.com/casbin/casbin.github.io
 
+### Casdoor身份认证系统（前端React + Javascript，后端Golang）
+
+1. 项目标题：Casdoor身份认证系统（前端React + Javascript，后端Golang）
+2. 项目描述：Casdoor是一套基于基于OAuth 2.0 / OIDC协议的统一身份认证（单点登录）系统。其支持多种第三方登录方式，如QQ、微信、Google, GitHub等。Casdoor具有Web管理界面，可以用来管理用户、角色、权限（基于Casbin）
+3. 项目难度：高
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 扩展架构，添加更多的第三方登录支持
+   - 优化、美化Web界面
+   - 支持Casbin权限管理
+   - 解决Casdoor主仓库&相关仓库中的issues：https://github.com/casbin/casdoor/issues
+8. 项目技术要求：
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casdoor
+   - https://github.com/casdoor
+
+### Casbin官方核心论坛（前端React + Javascript，后端Golang）
+
+1. 项目标题：Casbin官方核心论坛（前端React + Javascript，后端Golang）
+2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：casnode（https://github.com/casbin/casnode ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
+3. 项目难度：高
+4. 项目社区导师：[张军洁 (kocoler)](https://github.com/kocoler)
+5. 导师联系方式：tsglsdrs (AT) 163.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 完成一个界面风格类似[V2EX](https://v2ex.com/)的论坛，作为Casbin开源社区的官方论坛
+   - 继续维护该项目，添加features，解决bugs，完善其邮件列表功能
+   - 解决Casnode&相关仓库中的issues：https://github.com/casbin/casnode/issues
+8. 项目技术要求：
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casnode
+   - https://github.com/casbin/casbin
+
 ### Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
 
 1. 项目标题：Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
 2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（https://github.com/casbin/casbin-website），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Casbin-OA（https://github.com/casbin/casbin-oa ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
-5. 导师联系方式：hsluoyz@gmail.com
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 完成一个会议投稿系统，作为Casbin开源社区的官方稿件处理系统
+   - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
+   - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
+   - 解决Casbin Publish&相关仓库中的issues：https://github.com/casbin/casbin-publish/issues
+8. 项目技术要求：
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-publish
+   - https://github.com/casbin/casbin
+
+### Casbin官方OA系统（前端React + Javascript，后端Golang）
+
+1. 项目标题：Casbin官方OA系统（前端React + Javascript，后端Golang）
+2. 项目描述：随着Casbin开源社区的发展，社区成员越来越多，开源社区的管理成为一个重要问题。Casbin社区目前已经开发了OA系统的基础版本（https://github.com/casbin/casbin-oa ），作为社区成员的管理平台。目前该OA系统仍然是通过成员自行填写周报，来进行统计。未来我们希望通过GitHub API，自动化地填写周报模板，减轻使用者的负担。另外，我们也希望实现自动化的GitHub Issue Triage，即把GitHub issue自动分类、打标签（bug, feature还是question)，甚至实现社区机器人自动AT相关repo的负责成员等功能。这个项目首先Casbin社区自身会使用，同时也欢迎其他开源社区使用，提高社区管理的智能化水平。
+3. 项目难度：中
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 通过GitHub API，自动化地填写周报模板，减轻使用者的负担
+   - 实现自动化的GitHub Issue Triage，即把GitHub issue自动分类、打标签（bug, feature还是question)，甚至实现社区机器人自动AT相关repo的负责成员等功能
    - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
    - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
    - 解决Casbin OA&相关仓库中的issues：https://github.com/casbin/casbin-oa/issues
@@ -101,13 +190,34 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin-oa
    - https://github.com/casbin/casbin
 
+### jCasbin 生态完善（Java）
+
+1. 项目标题：jCasbin 生态完善（Java）
+2. 项目描述：jCasbin 在 Java 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前Java语言上最流行的授权库是Apache Shiro和Spring Security，最流行的Web框架是Spring。我们需要实现Casbin针对Spring等框架的插件，使Spring用户可以无缝接入Casbin。同时要兼容Apache Shiro和Spring Security的接口，让目前正在使用Apache Shiro和Spring Security的项目可以无缝迁移到Casbin。同时jCasbin也需要及时跟踪Golang Casbin主库的最新feature并移植到Java版本中来。
+3. 项目难度：中
+4. 项目社区导师：[房政金 (Distance)](https://github.com/fangzhengjin)
+5. 导师联系方式：fangzhengjin (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 实现针对Spring，包括Spring Cloud，SpringBoot等的权限认证中间件
+   - 实现兼容Apache Shiro和Spring Security的接口
+   - 根据用户需求，实现缺失的数据库adapter
+   - 解决 jCasbin 主仓库&相关仓库中的 issues：https://github.com/casbin/jcasbin/issues
+8. 项目技术要求：
+   - 熟悉 Java 语言
+   - 熟悉 SQL
+   - 熟悉 Git、GitHub 相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/jcasbin
+   - https://github.com/jcasbin
+
 ### PHP-Casbin 生态完善（PHP）
 
 1. 项目标题：PHP-Casbin 生态完善（PHP）
 2. 项目描述：[PHP-Casbin](https://github.com/php-casbin/php-casbin) 是Casbin的PHP版实现，功能和 Casbin（Golang）基本一致。目前，PHP-Casbin已经支持对`Laravel` `ThinkPHP` `Yii` `Codeigniter` `CakePHP` 等主流框架的适配。目前还需要开发对`Symfony`的扩展，C级别的框架进行支持，例如：`Phalcon Framework`，基于Swoole的框架支持，例如： `Hyperf` `easyswoole`等。除此之外，我们也希望Casbin有个PHP的C/C++扩展，以提升性能。
-3. 项目难度：中
-4. 项目社区导师：[techoner](https://github.com/techoner)
-5. 导师联系方式：techqiang@gmail.com
+3. 项目难度：高
+4. 项目社区导师：[李强 (techoner)](https://github.com/techoner)
+5. 导师联系方式：techqiang (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 完成 [Symfony-Permission](https://github.com/php-casbin/symfony-permission)
@@ -117,10 +227,50 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - 解决PHP-Casbin仓库中的issues：https://github.com/php-casbin/php-casbin/issues
 8. 项目技术要求：
    - 熟悉PHP语言
-   - 熟悉Git、GitHub相关操作   
+   - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
    - https://github.com/php-casbin/php-casbin
    - https://github.com/php-casbin
+
+### SwiftCasbin 开发（Swift）
+
+1. 项目标题：SwiftCasbin 开发（Swift）
+2. 项目描述：开发Swift版本的Casbin，支持iOS App、Swift服务器端应用等生态。
+3. 项目难度：高
+4. 项目社区导师：[孟祥文 (cit117)](https://github.com/cit117)
+5. 导师联系方式：cit117 (AT) me.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 实现 Casbin 的 Swift 版本
+   - 实现纯数据库驱动的 adapter: PostgresQL, Mysql, Microsoft SQL Server, Oracle, SQLite, IBM Db2.
+   - 解决 SwiftCasbin 主仓库&相关仓库中的 issues：https://github.com/casbin/SwiftCasbin/issues
+8. 项目技术要求：
+   - 熟悉 Swift 语言
+   - 熟悉 iOS App 开发等
+   - 熟悉 Git、GitHub 相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/SwiftCasbin
+   - https://github.com/SwiftCasbin
+
+### Casbin Web前端UI设计开发（React + Javascript）
+
+1. 项目标题：Casbin 前端设计开发（React + Javascript）
+2. 项目描述：目前Casbin社区有多个涉及Web前端的项目，如OA系统、Casnode论坛、Casdoor等。这些系统本身已经有一个功能完整的前端页面，但是UI比较简陋，因此需要较为专业的前端设计+开发实现更好的UI。
+3. 项目难度：中
+4. 项目社区导师：[刘子轩 (nodece)](https://github.com/nodece)
+5. 导师联系方式：nodeces@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 改进Casbin社区各个项目的Web前端页面的设计，包括提供图片、切图，调整页面元素尺寸、布局，改进交互效果、动画效果等
+   - 在现有的功能完整但UI较为简陋的代码基础上，修改React, Javascript代码，提升UI效果
+8. 项目技术要求：
+   - 熟悉Web前端设计，包括切图、布局、交互等
+   - 熟悉HTML、CSS，能够编写React + Javascript代码来实现所提出的UI设计
+   - 熟悉 Git、GitHub 相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casdoor
+   - https://github.com/casbin/casnode
+   - https://github.com/casbin/casbin-oa
 
 所有可选项目详见：https://github.com/casbin/talent2022#可选项目列表
 
@@ -142,7 +292,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 ### 具有以下条件者优先：
 
-- 熟悉Go, Javascript、React等语言或框架、分布式系统、微服务架构，有相关项目经验；
+- 熟悉Go, Javascript、React等语言或框架、Web系统、分布式系统、微服务架构，有相关项目经验；
 - 在GitHub较为活跃，有自己的开源项目，或参与过知名开源项目；
 - 可以在项目结束后继续长期参与开源社区的开发、建设或维护。
 

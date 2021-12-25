@@ -12,8 +12,8 @@
 ----|----|----
 GSoC 2020 | 3 | 3
 暑期2020 | 12 | 10
-GSoC 2021 | 9 | 待公布
-暑期2021 | 14 | 待公布
+GSoC 2021 | 9 | 9
+暑期2021 | 11 | 11
 
 为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为明年Google Summer of Code 2022和暑期2022（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2022”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
@@ -329,7 +329,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2021年8月20日 - 2021年10月31日）
+### 1. 联系社区（2021年12月20日 - 2022年2月28日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
 2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2022-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
@@ -339,6 +339,6 @@ Casbin也曾经在国际上进行多次线下宣讲：
     <img alt="qrcode-talent" src="https://cdn.casbin.com/activity/qrcode-talent.png" width="300"/>
 </div>
 
-### 2. 官网投递（2021年8月20日 - 2021年10月31日）
+### 2. 官网投递（2021年12月20日 - 2022年2月28日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org

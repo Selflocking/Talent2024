@@ -38,7 +38,7 @@ GSoC 2021 | 9 | 9
 
 ### 本项目的资助额度是多少？
 
-资助金按月发放，分为基础资助金：500元 + 奖金：0~500元 
+资助金按月发放，分为基础资助金：500元 + 奖金：0~500元
 （均为每月税后，根据上手快慢程度及技术栈匹配程度会有浮动，项目开始前会协商好。）
 
 ## Casbin开源项目介绍
@@ -329,16 +329,16 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2021年12月20日 - 2022年2月28日）
+### 1. 联系社区（2022年6月1日 - 2022年12月31日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
-2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2022-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
+2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2022-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
 
 <div class="half" style="text-align: center;">
     <img alt="qrcode-casbin" src="https://cdn.casbin.com/activity/qrcode-casbin.png" width="300" style="margin-right: 200px" />
     <img alt="qrcode-talent" src="https://cdn.casbin.com/activity/qrcode-talent.png" width="300"/>
 </div>
 
-### 2. 官网投递（2021年12月20日 - 2022年2月28日）
+### 2. 官网投递（2022年6月1日 - 2022年12月31日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org

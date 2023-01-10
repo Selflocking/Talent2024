@@ -1,12 +1,12 @@
-## Casbin明日之星预选生计划-Talent for Casbin 2022
+## Casbin明日之星预选生计划-Talent for Casbin 2023
 
-### “Casbin明日之星预选生计划-Talent for Casbin 2022”是什么？
+### “Casbin明日之星预选生计划-Talent for Casbin 2023”是什么？
 
-“Casbin明日之星预选生计划-Talent for Casbin 2022”（以下简称 Talent 2022）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
+“Casbin明日之星预选生计划-Talent for Casbin 2023”（以下简称 Talent 2023）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
 
 2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://isrc.iscas.ac.cn/summer2020) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
 
-2021年，Casbin社区继续参加上述两项活动，Google Summer of Code 2021 和开源软件供应链点亮计划-暑期2021，题目的数量与招纳的学生人数均创下新高。
+2021年和2022年，Casbin社区继续参加上述两项活动，Google Summer of Code 和开源软件供应链点亮计划-暑期编程之夏，题目的数量与招纳的学生人数均创下新高。
 
 活动 | 学生人数 | 最终考核通过人数
 ----|----|----
@@ -15,13 +15,14 @@ GSoC 2020 | 3 | 3
 GSoC 2021 | 9 | 9
 暑期2021 | 11 | 11
 
-为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为明年Google Summer of Code 2022和暑期2022（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2022”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
-根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2022”活动奖金和加盖Casbin社区公章的参与（实习）证明。
+为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为今年Google Summer of Code 2023和暑期2023（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2023”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
-**“Talent 2022”项目在2022年第二次举办，与Google Summer of Code等活动类似，不同点是“Talent 2022”在非GSoC申请时间举行，与GSoC等活动是互补的关系。**
+根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2023”活动奖金和加盖Casbin社区公章的参与（实习）证明。
 
-1. Casbin明日之星预选生计划-Talent for Casbin 2022 官网：https://github.com/casbin/Talent2022
+**“Talent 2023”项目在2023年第三次举办，与Google Summer of Code等活动类似，不同点是“Talent 2023”在非GSoC申请时间举行，与GSoC等活动是互补的关系。**
+
+1. Casbin明日之星预选生计划-Talent for Casbin 2023 官网：https://github.com/casbin/Talent2023
 2. Google Summer of Code官网：https://summerofcode.withgoogle.com/
 3. Google Summer of Code中文介绍：https://github.com/gsoc-cn/gsoc-cn 或 https://zhuanlan.zhihu.com/p/27823910 或 https://zhuanlan.zhihu.com/p/27330699
 4. 开源软件供应链点亮计划-暑期活动官网：https://summer.iscas.ac.cn/
@@ -95,7 +96,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 ### Casbin开源社区运营
 
 1. 项目标题：Casbin开源社区运营
-2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。该项目首先进入Talent 2022，若社区今年有[Google Season of Docs 2022](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2022项目](https://github.com/casbin/Summer2021 )。
+2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。该项目首先进入Talent 2023，若社区今年有[Google Season of Docs 2023](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2023项目](https://github.com/casbin/Summer2021 )。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
@@ -115,7 +116,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 ### Casbin文档中文翻译 + 官网优化
 
 1. 项目标题：Casbin文档中文翻译 + 官网优化
-2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。该项目首先进入Talent 2022，若社区今年有[Google Season of Docs 2022](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2022项目](https://github.com/casbin/Summer2021 )。
+2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。该项目首先进入Talent 2023，若社区今年有[Google Season of Docs 2023](https://github.com/casbin/SeasonOfDocs2022 )名额则优先入选，若无名额则进入[中科院软件所暑期2023项目](https://github.com/casbin/Summer2022 )。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
@@ -300,7 +301,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/casnode
    - https://github.com/casbin/casbin-oa
 
-所有可选项目详见：https://github.com/casbin/talent2022#可选项目列表
+所有可选项目详见：https://github.com/casbin/Talent2023#可选项目列表
 
 ## 候选人要求
 
@@ -329,16 +330,16 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2022年6月1日 - 2022年12月31日）
+### 1. 联系社区（2023年1月1日 - 2023年6月30日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
-2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2022-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
+2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2023-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
 
 <div class="half" style="text-align: center;">
     <img alt="qrcode-casbin" src="https://cdn.casbin.com/activity/qrcode-casbin.png" width="300" style="margin-right: 200px" />
     <img alt="qrcode-talent" src="https://cdn.casbin.com/activity/qrcode-talent.png" width="300"/>
 </div>
 
-### 2. 官网投递（2022年6月1日 - 2022年12月31日）
+### 2. 官网投递（2023年1月1日 - 2023年6月30日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org

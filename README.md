@@ -96,7 +96,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 ### Casbin开源社区运营
 
 1. 项目标题：Casbin开源社区运营
-2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。该项目首先进入Talent 2023，若社区今年有[Google Season of Docs 2023](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2023项目](https://github.com/casbin/Summer2021 )。
+2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
@@ -116,7 +116,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 ### Casbin文档中文翻译 + 官网优化
 
 1. 项目标题：Casbin文档中文翻译 + 官网优化
-2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。该项目首先进入Talent 2023，若社区今年有[Google Season of Docs 2023](https://github.com/casbin/SeasonOfDocs2022 )名额则优先入选，若无名额则进入[中科院软件所暑期2023项目](https://github.com/casbin/Summer2022 )。
+2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com

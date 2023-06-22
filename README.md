@@ -1,8 +1,8 @@
-## Casbin明日之星预选生计划-Talent for Casbin 2023
+## Casbin明日之星预选生计划-Talent for Casbin 2024
 
-### “Casbin明日之星预选生计划-Talent for Casbin 2023”是什么？
+### “Casbin明日之星预选生计划-Talent for Casbin 2024”是什么？
 
-“Casbin明日之星预选生计划-Talent for Casbin 2023”（以下简称 Talent 2023）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
+“Casbin明日之星预选生计划-Talent for Casbin 2024”（以下简称 Talent 2024）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
 
 2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://isrc.iscas.ac.cn/summer2020) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
 
@@ -14,15 +14,17 @@ GSoC 2020 | 3 | 3
 暑期2020 | 12 | 10
 GSoC 2021 | 9 | 9
 暑期2021 | 11 | 11
+GSoC 2022 | 12 | 11
+暑期2022 | 6 | 5
 
 
-为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为今年Google Summer of Code 2023和暑期2023（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2023”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
+为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为Google Summer of Code 2024和暑期2024（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2024”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
-根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2023”活动奖金和加盖Casbin社区公章的参与（实习）证明。
+根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2024”活动奖金和加盖Casbin社区公章的参与（实习）证明。
 
-**“Talent 2023”项目在2023年第三次举办，与Google Summer of Code等活动类似，不同点是“Talent 2023”在非GSoC申请时间举行，与GSoC等活动是互补的关系。**
+**“Talent 2024”项目在2024年第四次举办，与Google Summer of Code等活动类似，不同点是“Talent 2024”在非GSoC申请时间举行，与GSoC等活动是互补的关系。**
 
-1. Casbin明日之星预选生计划-Talent for Casbin 2023 官网：https://github.com/casbin/Talent2023
+1. Casbin明日之星预选生计划-Talent for Casbin 2024 官网：https://github.com/casbin/Talent2024
 2. Google Summer of Code官网：https://summerofcode.withgoogle.com/
 3. Google Summer of Code中文介绍：https://github.com/gsoc-cn/gsoc-cn 或 https://zhuanlan.zhihu.com/p/27823910 或 https://zhuanlan.zhihu.com/p/27330699
 4. 开源软件供应链点亮计划-暑期活动官网：https://summer.iscas.ac.cn/
@@ -39,7 +41,7 @@ GSoC 2021 | 9 | 9
 
 ### 本项目的资助额度是多少？
 
-资助金按月发放，分为基础资助金：500元 + 奖金：0~500元
+资助金按月发放，分为基础资助金：600元 + 奖金：0~400元
 （均为每月税后，根据上手快慢程度及技术栈匹配程度会有浮动，项目开始前会协商好。）
 
 ## Casbin开源项目介绍
@@ -301,7 +303,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/casnode
    - https://github.com/casbin/casbin-oa
 
-所有可选项目详见：https://github.com/casbin/Talent2023#可选项目列表
+所有可选项目详见：https://github.com/casbin/Talent2024#可选项目列表
 
 ## 候选人要求
 
@@ -330,16 +332,16 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2023年1月1日 - 2023年6月30日）
+### 1. 联系社区（2023年6月1日 - 2023年9月30日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
-2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2023-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
+2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2024-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
 
 <div class="half" style="text-align: center;">
     <img alt="qrcode-casbin" src="https://cdn.casbin.com/activity/qrcode-casbin.png" width="300" style="margin-right: 200px" />
     <img alt="qrcode-talent" src="https://cdn.casbin.com/activity/qrcode-talent.png" width="300"/>
 </div>
 
-### 2. 官网投递（2023年1月1日 - 2023年6月30日）
+### 2. 官网投递（2023年6月1日 - 2023年9月30日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org

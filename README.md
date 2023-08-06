@@ -4,7 +4,7 @@
 
 “Casbin明日之星预选生计划-Talent for Casbin 2024”（以下简称 Talent 2024）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
 
-2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://isrc.iscas.ac.cn/summer2020) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
+2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://summer-ospp.ac.cn/2020/) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
 
 2021年和2022年，Casbin社区继续参加上述两项活动，Google Summer of Code 和开源软件供应链点亮计划-暑期编程之夏，题目的数量与招纳的学生人数均创下新高。
 
@@ -181,7 +181,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 ### Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
 
 1. 项目标题：Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
-2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（https://github.com/casbin/casbin-website），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Casbin-OA（https://github.com/casbin/casbin-oa ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
+2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（ https://github.com/casbin/casbin-website-v2 ），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Casbin-OA（https://github.com/casbin/casbin-oa ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz (AT) gmail.com
@@ -190,13 +190,11 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - 完成一个会议投稿系统，作为Casbin开源社区的官方稿件处理系统
    - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
    - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
-   - 解决Casbin Publish&相关仓库中的issues：https://github.com/casbin/casbin-publish/issues
 8. 项目技术要求：
    - 熟悉React、Javascript语言（前端）
    - 熟悉Golang语言（后端）
    - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casbin-publish
    - https://github.com/casbin/casbin
 
 ### Casbin官方OA系统（前端React + Javascript，后端Golang）
@@ -247,7 +245,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：PHP-Casbin 生态完善（PHP）
 2. 项目描述：[PHP-Casbin](https://github.com/php-casbin/php-casbin) 是Casbin的PHP版实现，功能和 Casbin（Golang）基本一致。目前，PHP-Casbin已经支持对`Laravel` `ThinkPHP` `Yii` `Codeigniter` `CakePHP` 等主流框架的适配。目前还需要开发对`Symfony`的扩展，C级别的框架进行支持，例如：`Phalcon Framework`，基于Swoole的框架支持，例如： `Hyperf` `easyswoole`等。除此之外，我们也希望Casbin有个PHP的C/C++扩展，以提升性能。
 3. 项目难度：高
-4. 项目社区导师：[李强 (techoner)](https://github.com/techoner)
+4. 项目社区导师：[李强 (techoner)](https://github.com/techqiang)
 5. 导师联系方式：techqiang (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
@@ -334,7 +332,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 ### 1. 联系社区（2023年6月1日 - 2023年9月30日）
 
-1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
+1. 加入《Casbin访问控制社区群》（QQ大群）：546057381
 2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2024-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
 
 <div class="half" style="text-align: center;">

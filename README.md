@@ -190,7 +190,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - 完成一个会议投稿系统，作为Casbin开源社区的官方稿件处理系统
    - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
    - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
-   - 解决Confita&相关仓库中的issues：https://github.com/casbin/confita/issues
+   - 解决Confita相关仓库中的issues：https://github.com/casbin/confita/issues
 8. 项目技术要求：
    - 熟悉React、Javascript语言（前端）
    - 熟悉Golang语言（后端）
@@ -334,8 +334,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 ### 1. 联系社区（2023年6月1日 - 2023年9月30日）
 
-1. 加入《Casbin访问控制社区群》（QQ大群）：546057381
-2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2024-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
+1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://qm.qq.com/cgi-bin/qm/qr?k=G1a9A8TvsnySygiE0y3RcAll9FEazX-G&jump_from=webapi&authKey=OxuOi/et2Zzw7vuRzQFAnsO9sLJlJonNYtM9BRObV6lJs8nWKfjozA8qNmS4mdbx)
+2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2024-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=0Hbu5gOSLXUkENTtGaoG0zMqjyixr4ke&jump_from=webapi&authKey=3l1AOq4ChaGgbj4/cHCPXLk/UzYWJigc02l30lKUJH37Wxu+eZxXyKXx7rNXElZV) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
 
 <div class="half" style="text-align: center;">
     <img alt="qrcode-casbin" src="https://cdn.casbin.com/activity/qrcode-casbin.png" width="300" style="margin-right: 200px" />

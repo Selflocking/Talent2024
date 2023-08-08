@@ -158,10 +158,10 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/casdoor
    - https://github.com/casdoor
 
-### Casbin官方核心论坛（前端React + Javascript，后端Golang）
+### Casnode官方核心论坛（前端React + Javascript，后端Golang）
 
-1. 项目标题：Casbin官方核心论坛（前端React + Javascript，后端Golang）
-2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：casnode（https://github.com/casbin/casnode ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
+1. 项目标题：Casnode官方核心论坛（前端React + Javascript，后端Golang）
+2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casnode（https://github.com/casbin/casnode ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
 3. 项目难度：高
 4. 项目社区导师：[张军洁 (kocoler)](https://github.com/kocoler)
 5. 导师联系方式：tsglsdrs (AT) 163.com
@@ -178,10 +178,10 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/casnode
    - https://github.com/casbin/casbin
 
-### Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
+### Confita官方会议投稿系统（前端React + Javascript，后端Golang）
 
-1. 项目标题：Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
-2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（ https://github.com/casbin/casbin-website-v2 ），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Casbin-OA（https://github.com/casbin/casbin-oa ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
+1. 项目标题：Confita官方会议投稿系统（前端React + Javascript，后端Golang）
+2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（ https://github.com/casbin/casbin-website-v2 ），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Confita（https://github.com/casbin/confita ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz (AT) gmail.com
@@ -190,14 +190,16 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - 完成一个会议投稿系统，作为Casbin开源社区的官方稿件处理系统
    - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
    - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
+   - 解决Confita&相关仓库中的issues：https://github.com/casbin/confita/issues
 8. 项目技术要求：
    - 熟悉React、Javascript语言（前端）
    - 熟悉Golang语言（后端）
    - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/confita
    - https://github.com/casbin/casbin
 
-### Casbin官方OA系统（前端React + Javascript，后端Golang）
+### Casbin-OA官方OA系统（前端React + Javascript，后端Golang）
 
 1. 项目标题：Casbin官方OA系统（前端React + Javascript，后端Golang）
 2. 项目描述：随着Casbin开源社区的发展，社区成员越来越多，开源社区的管理成为一个重要问题。Casbin社区目前已经开发了OA系统的基础版本（https://github.com/casbin/casbin-oa ），作为社区成员的管理平台。目前该OA系统仍然是通过成员自行填写周报，来进行统计。未来我们希望通过GitHub API，自动化地填写周报模板，减轻使用者的负担。另外，我们也希望实现自动化的GitHub Issue Triage，即把GitHub issue自动分类、打标签（bug, feature还是question)，甚至实现社区机器人自动AT相关repo的负责成员等功能。这个项目首先Casbin社区自身会使用，同时也欢迎其他开源社区使用，提高社区管理的智能化水平。
@@ -245,7 +247,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：PHP-Casbin 生态完善（PHP）
 2. 项目描述：[PHP-Casbin](https://github.com/php-casbin/php-casbin) 是Casbin的PHP版实现，功能和 Casbin（Golang）基本一致。目前，PHP-Casbin已经支持对`Laravel` `ThinkPHP` `Yii` `Codeigniter` `CakePHP` 等主流框架的适配。目前还需要开发对`Symfony`的扩展，C级别的框架进行支持，例如：`Phalcon Framework`，基于Swoole的框架支持，例如： `Hyperf` `easyswoole`等。除此之外，我们也希望Casbin有个PHP的C/C++扩展，以提升性能。
 3. 项目难度：高
-4. 项目社区导师：[李强 (techoner)](https://github.com/techqiang)
+4. 项目社区导师：[李强 (techoner)](https://github.com/leeqvip)
 5. 导师联系方式：techqiang (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
